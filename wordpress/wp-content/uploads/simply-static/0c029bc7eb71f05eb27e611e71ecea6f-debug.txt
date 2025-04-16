@@ -1,0 +1,332 @@
+[2025-04-16 08:09:14] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-04-16 08:09:14] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-04-16 08:09:14] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-04-16 08:09:15] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-04-16 08:09:15] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-04-16 08:09:15] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-04-16 08:09:15] [class-ss-setup-task.php:33] Creating archive directory: E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954\
+[2025-04-16 08:09:15] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/sumanmandal/sumanmandal/wordpress/
+[2025-04-16 08:09:15] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-04-16 08:09:15] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-16 08:09:15] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-16 08:09:15] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-04-16 08:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/
+[2025-04-16 08:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-04-16 08:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65abe258a-OTVEI6.tmp
+[2025-04-16 08:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/?simply_static_page=1
+[2025-04-16 08:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/?simply_static_page=1
+[2025-04-16 08:09:16] [class-ss-url-fetcher.php:103] Filesize: 51003 bytes
+[2025-04-16 08:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-16 08:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-04-16 08:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65abe258a-OTVEI6.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/index.html
+[2025-04-16 08:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:18] [class-ss-fetch-urls-task.php:158] Adding 13 URLs to the queue
+[2025-04-16 08:09:19] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:20] [class-ss-page.php:119] Checking Content Identical:6fdac6c03a04bf928eee2d7d4171fa4eb2facb36===. Value: FALSE
+[2025-04-16 08:09:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-04-16 08:09:20] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-16 08:09:20] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-16 08:09:20] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-16 08:09:20] [class-ss-fetch-urls-task.php:69] Total pages: 14; Pages remaining: 13
+[2025-04-16 08:09:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress
+[2025-04-16 08:09:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 14
+[2025-04-16 08:09:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b024255-JYoYke.tmp
+[2025-04-16 08:09:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress?simply_static_page=2
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress?simply_static_page=2
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:103] Filesize: 379 bytes
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-04-16 08:09:20] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/sumanmandal/sumanmandal/wordpress/
+[2025-04-16 08:09:20] [class-ss-fetch-urls-task.php:212] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2025-04-16 08:09:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/sample-page/
+[2025-04-16 08:09:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 14
+[2025-04-16 08:09:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b0289b5-FKAkK6.tmp
+[2025-04-16 08:09:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/sample-page/?simply_static_page=3
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/sample-page/?simply_static_page=3
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:103] Filesize: 50221 bytes
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-16 08:09:20] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2025-04-16 08:09:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b0289b5-FKAkK6.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/sample-page/index.html
+[2025-04-16 08:09:21] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:22] [class-ss-fetch-urls-task.php:158] Adding 17 URLs to the queue
+[2025-04-16 08:09:22] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:24] [class-ss-page.php:119] Checking Content Identical:344affdd9fbe2221ba2096651084ab291bac47cb===. Value: FALSE
+[2025-04-16 08:09:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/2025/04/16/hello-world/
+[2025-04-16 08:09:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 14
+[2025-04-16 08:09:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b417ad8-9ZlgOZ.tmp
+[2025-04-16 08:09:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/2025/04/16/hello-world/?simply_static_page=4
+[2025-04-16 08:09:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/2025/04/16/hello-world/?simply_static_page=4
+[2025-04-16 08:09:24] [class-ss-url-fetcher.php:103] Filesize: 70646 bytes
+[2025-04-16 08:09:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-16 08:09:24] [class-ss-url-fetcher.php:233] New filename for static page: /2025/04/16/hello-world/index.html
+[2025-04-16 08:09:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b417ad8-9ZlgOZ.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/2025/04/16/hello-world/index.html
+[2025-04-16 08:09:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:27] [class-ss-fetch-urls-task.php:158] Adding 21 URLs to the queue
+[2025-04-16 08:09:27] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:28] [class-ss-page.php:119] Checking Content Identical:28b44b41a117a126f7e39d2cca66e59fae9796bb===. Value: FALSE
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b83e451-ZOS9YN.tmp
+[2025-04-16 08:09:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=5
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=5
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:103] Filesize: 3358 bytes
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b83e451-ZOS9YN.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:28] [class-ss-page.php:119] Checking Content Identical:ccc3e4d82490e24c5bab603beb04961ba3225571===. Value: FALSE
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/feed/
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/feed/
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/comments/feed/
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/comments/feed/
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/blocks/navigation/style.min.css
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b847e82-QuihAa.tmp
+[2025-04-16 08:09:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/blocks/navigation/style.min.css?simply_static_page=8
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/blocks/navigation/style.min.css?simply_static_page=8
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:103] Filesize: 16449 bytes
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b847e82-QuihAa.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-includes/blocks/navigation/style.min.css
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:28] [class-ss-page.php:119] Checking Content Identical:8562935219e2b4299d36f0304c0382ee16390a9e===. Value: FALSE
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/style.css
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b86176b-uS62dR.tmp
+[2025-04-16 08:09:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/style.css?simply_static_page=9
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/style.css?simply_static_page=9
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:103] Filesize: 2503 bytes
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/style.css
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b86176b-uS62dR.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-content/themes/twentytwentyfive/style.css
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:28] [class-ss-page.php:119] Checking Content Identical:97bb382f75f1f3bcec9836ea91309222ad8faf33===. Value: FALSE
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/xmlrpc.php
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/xmlrpc.php
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b8726ff-F4b96Z.tmp
+[2025-04-16 08:09:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=12
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=12
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:103] Filesize: 38256 bytes
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b8726ff-F4b96Z.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:28] [class-ss-page.php:119] Checking Content Identical:3b35f410e88cf8d8014baa7612653e6a1768ae2b===. Value: FALSE
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b88b04f-VrLHRf.tmp
+[2025-04-16 08:09:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2?simply_static_page=13
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2?simply_static_page=13
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:103] Filesize: 53600 bytes
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b88b04f-VrLHRf.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:28] [class-ss-page.php:119] Checking Content Identical:5b56dbe3d3eabe178719988f4fee76d9d4ad7079===. Value: FALSE
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 14
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b896ab9-qKYEY2.tmp
+[2025-04-16 08:09:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2?simply_static_page=14
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2?simply_static_page=14
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:103] Filesize: 106112 bytes
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b896ab9-qKYEY2.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:28] [class-ss-page.php:119] Checking Content Identical:8861b9f5ea4d8410ce01d59ce47dcb32edead4ce===. Value: FALSE
+[2025-04-16 08:09:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 14 pages/files
+[2025-04-16 08:09:28] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-16 08:09:28] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-16 08:09:28] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:69] Total pages: 24; Pages remaining: 10
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-admin/
+[2025-04-16 08:09:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 24
+[2025-04-16 08:09:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b8a4154-WGmH70.tmp
+[2025-04-16 08:09:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-admin/?simply_static_page=15
+[2025-04-16 08:09:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-admin/?simply_static_page=15
+[2025-04-16 08:09:29] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-04-16 08:09:29] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2025-04-16 08:09:29] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/sumanmandal/sumanmandal/wordpress/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fsumanmandal%2Fsumanmandal%2Fwordpress%2Fwp-admin%2F%3Fsimply_static_page%3D15&reauth=1
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:230] Redirect URL is on the same domain; adding the URL to the queue
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:242] Creating a redirect page
+[2025-04-16 08:09:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2025-04-16 08:09:29] [class-ss-page.php:119] Checking Content Identical:26f05609e785b11c146d5f1b3e30ff47f5930716===. Value: FALSE
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/sample-page/feed/
+[2025-04-16 08:09:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 24
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/sample-page/feed/
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/wp/v2/pages/2
+[2025-04-16 08:09:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 24
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/wp/v2/pages/2
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/oembed/1.0/embed
+[2025-04-16 08:09:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 24
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/oembed/1.0/embed
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/author/sumanmandal/
+[2025-04-16 08:09:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 24
+[2025-04-16 08:09:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b97e632-80e9qM.tmp
+[2025-04-16 08:09:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/author/sumanmandal/?simply_static_page=19
+[2025-04-16 08:09:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/author/sumanmandal/?simply_static_page=19
+[2025-04-16 08:09:30] [class-ss-url-fetcher.php:103] Filesize: 50745 bytes
+[2025-04-16 08:09:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-16 08:09:30] [class-ss-url-fetcher.php:233] New filename for static page: /author/sumanmandal/index.html
+[2025-04-16 08:09:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65b97e632-80e9qM.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/author/sumanmandal/index.html
+[2025-04-16 08:09:30] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:32] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-04-16 08:09:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:33] [class-ss-page.php:119] Checking Content Identical:e076004b4b98e6c27ca9a7b1045e27f14a4c8ddb===. Value: FALSE
+[2025-04-16 08:09:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/category/uncategorized/
+[2025-04-16 08:09:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 24
+[2025-04-16 08:09:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65bda6b4d-5E6ZtU.tmp
+[2025-04-16 08:09:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/category/uncategorized/?simply_static_page=20
+[2025-04-16 08:09:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/category/uncategorized/?simply_static_page=20
+[2025-04-16 08:09:34] [class-ss-url-fetcher.php:103] Filesize: 55862 bytes
+[2025-04-16 08:09:34] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-04-16 08:09:34] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-04-16 08:09:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65be86132-gSirpE.tmp
+[2025-04-16 08:09:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/category/uncategorized/
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:103] Filesize: 55862 bytes
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/comment-reply.min.js
+[2025-04-16 08:09:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 24
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65bf6a3c3-ItERlb.tmp
+[2025-04-16 08:09:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/comment-reply.min.js?simply_static_page=21
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/js/comment-reply.min.js?simply_static_page=21
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65bf6a3c3-ItERlb.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-includes/js/comment-reply.min.js
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:35] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/2025/04/16/hello-world/feed/
+[2025-04-16 08:09:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 24
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/2025/04/16/hello-world/feed/
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/css/dist/block-library/common.min.css
+[2025-04-16 08:09:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 24
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\SUMANM~1\AppData\Local\Temp/67ff65bf71fe5-09Vg2V.tmp
+[2025-04-16 08:09:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/css/dist/block-library/common.min.css?simply_static_page=23
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-includes/css/dist/block-library/common.min.css?simply_static_page=23
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:103] Filesize: 3425 bytes
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2025-04-16 08:09:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\SUMANM~1\AppData\Local\Temp/67ff65bf71fe5-09Vg2V.tmp to E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954/wp-includes/css/dist/block-library/common.min.css
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-16 08:09:35] [class-ss-page.php:119] Checking Content Identical:bd8fecbacf43474ca2c3e020ed2ae7368b1a1434===. Value: FALSE
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/wp/v2/posts/1
+[2025-04-16 08:09:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 24
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/wp/v2/posts/1
+[2025-04-16 08:09:35] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 14 of 24 pages/files
+[2025-04-16 08:09:35] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:69] Total pages: 27; Pages remaining: 3
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fsumanmandal%2Fsumanmandal%2Fwordpress%2Fwp-admin%2F%3Fsimply_static_page%3D15&reauth=1
+[2025-04-16 08:09:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 27
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fsumanmandal%2Fsumanmandal%2Fwordpress%2Fwp-admin%2F%3Fsimply_static_page%3D15&reauth=1
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/author/sumanmandal/feed/
+[2025-04-16 08:09:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 27
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/author/sumanmandal/feed/
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/wp/v2/users/1
+[2025-04-16 08:09:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 27
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/sumanmandal/sumanmandal/wordpress/wp-json/wp/v2/users/1
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-16 08:09:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 24 of 27 pages/files
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-16 08:09:36] [class-ss-fetch-urls-task.php:69] Total pages: 27; Pages remaining: 0
+[2025-04-16 08:09:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 27 of 27 pages/files
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-04-16 08:09:36] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /sample-page/index.html
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/sample-page
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/04/16/hello-world/index.html
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/2025/04/16/hello-world
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/block-library/navigation
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/navigation/style.min.css
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-includes/blocks/navigation
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentytwentyfive/style.css
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive
+[2025-04-16 08:09:36] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-includes/js/dist/script-modules/interactivity
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/manrope
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-content/themes/twentytwentyfive/assets/fonts/fira-code
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-admin/index.html
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-admin
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /author/sumanmandal/index.html
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/author/sumanmandal
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/comment-reply.min.js
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-includes/js
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/common.min.css
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: E:/Xampp/htdocs/sumanmandal/sumanmandal/wordpress/wp-includes/css/dist/block-library
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:13. Processed Pages: 13
+[2025-04-16 08:09:37] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 13 of 13 files
+[2025-04-16 08:09:37] [trait-can-process-pages.php:114] Total pages: 13; Pages remaining: 0
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-04-16 08:09:37] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at E:\Xampp\htdocs\sumanmandal\sumanmandal\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1744790954\404\index.html
+[2025-04-16 08:09:37] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://sumanbioscienceportfolio.github.io/sumanmandal/" target="_blank">https://sumanbioscienceportfolio.github.io/sumanmandal/</a>
+[2025-04-16 08:09:37] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-04-16 08:09:37] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-04-16 08:09:37] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-04-16 08:09:37] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-04-16 08:09:37] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-04-16 08:09:37] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-04-16 08:09:37] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-04-16 08:09:37] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:23
